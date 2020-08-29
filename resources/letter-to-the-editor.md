@@ -27,7 +27,7 @@ If someone cites your letter, keep writing! Something you said made it to the to
 
 ### Less is More
 
-Nobody likes a windbag. Try to keep your letter around 250 words.
+Try to keep your letter around 250 words. This will mean that should the editorial board desire to publish or quote it, it will require minimal editing.
 
 ## Writing Your Letter
 
