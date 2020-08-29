@@ -8,13 +8,13 @@ However, your courageous voice can have a huge impact at public meetings.
 
 Good question! When you speak up, you:
 
-- Welcome disadvantaged people into your neighborhood -- people that are often openly insulted and abused at rancorous public meetings.
+- Welcome people into your neighborhood -- people often lose sight of the fact that the future residents of a given project are also stakeholders, and without your support they don't get a say in this process.
 
 - Enable city planning staff to put forward a balanced report to Council Committees or other decision-makers.
 
 - Give your Councilmember the courage to do the right thing, and create opportunity in your community.
 
-- Curb the most extreme opponents, and give both council and other residents an alternative way of viewing the proposed development
+- Curb the most extreme opponents, and give both council and other residents an alternative way of viewing the proposed development.
 
 ## Tips for Speaking at Public Meetings
 
