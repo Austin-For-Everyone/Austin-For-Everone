@@ -14,8 +14,12 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
+        <style>
+          #header_img { display: block; position: absolute; left: 0; } 
+        </style>
+          
         <header class="inner">
-          <img src="site.header" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
+          <img id="header_img" src="assets/images/austin-for-everyone.png" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </header>
