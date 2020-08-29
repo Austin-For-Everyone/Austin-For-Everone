@@ -7,7 +7,6 @@ Austin for Everyone is an independent project run by individuals that support la
 - Encourage housing for our new friends and neighbors over the storage of cars
 - Allow more people to live in areas with good access to transportation, parks, and services
 - Foster and sustain economically diverse neighborhoods
-- Provide access to the opportunities that our community provides. No matter who you are, what you do, where you're from, or how much money you make, or who got here first, there should be a home in our community for you.
 
 While we have ideas for how to achieve these goals, we are open to suggestions and are always looking to learn and discuss productively.
 
