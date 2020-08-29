@@ -1,4 +1,4 @@
-# You Have a Voice, and We Want to Hear It
+# You Have a Voice
 
 This guide should help you pen a letter to the editor of a local publication in support of reforming land use policies or supporting a specific project. If you have questions or would like help with review or placement, [feel free to drop us a line](mailto:tannerblair@outlook.com).
 
