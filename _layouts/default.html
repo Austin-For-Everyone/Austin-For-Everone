@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+  <style>
+    #header_img {
+      border: none;
+      box-shadow: none;
+      width: 100%;
+    }
+    #project_title {    
+      position: absolute;
+      margin-top: -245px;
+      padding-left: 25px;
+      color: #333;
+      text-shadow: none;
 
+     .inner {
+        max-width: 1280px;
+      }
+    } 
+  </style>
+  
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,24 +32,7 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <style>
-          #header_img {
-            border: none;
-            box-shadow: none;
-            width: 100%;
-          }
-          #project_title {    
-            position: absolute;
-            margin-top: -245px;
-            padding-left: 25px;
-            color: #333;
-            text-shadow: none;
-            
-           .inner {
-              max-width: 1280px;
-            }
-          } 
-        </style>
+
 
         <header class="inner">
           <img id="header_img" src="https://raw.githubusercontent.com/Austin-For-Everyone/Austin-For-Everyone/master/assets/images/austin-for-everyone.png" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
