@@ -14,7 +14,7 @@ While we have ideas for how to achieve these goals, we are open to suggestions a
 
 ### Testify at Public Hearings
 
-It's quick, it's easy, and it gives our representatives a chance to get to know the real people affected by how our city approaches zoning and land use. If you aren't sure what to say, check out our [guide to speaking up](https://austinforeveryone.net/resouces/speaking-up). If you aren't sure what meetings are coming up or when a specific case is going to be heard, check out our list of [opportunities to use your voice](https://austinforeveryone.net/resources/opportunities). 
+It's quick, it's easy, and it gives our representatives a chance to get to know the real people affected by how our city approaches zoning and land use. If you aren't sure what to say, check out our [guide to speaking up](https://austinforeveryone.net/resources/speaking-up). If you aren't sure what meetings are coming up or when a specific case is going to be heard, check out our list of [opportunities to use your voice](https://austinforeveryone.net/resources/opportunities). 
 
 ### Write an Op-Ed or a Letter to the Editor
 
