@@ -2,3 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
+
+#header_img {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+#project_title {    
+  position: absolute;
+  margin-top: -245px;
+  padding-left: 25px;
+  color: #333;
+  text-shadow: none;
+} 
