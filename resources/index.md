@@ -1,3 +1,3 @@
 # Resources
 
-### [Zoning cases available for comment](zoning-cases)
+### [Zoning cases available for comment](https://austinforeveryone.net/resources/zoning-cases)
