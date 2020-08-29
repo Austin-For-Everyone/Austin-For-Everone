@@ -55,17 +55,25 @@ There are plenty of policy wonks out there. If you are one -- great! Wonk away. 
 ## Editorial Board Contacts
 
 ### Austin American-Statesman
+
 [Submission Guidelines](https://www.statesman.com/article/20141113/news/311139505)
+
 [letters@statesman.com](mailto:letters@statesman.com)
 
 ### Austin Chronicle
+
 [Submission Guidelines](https://www.austinchronicle.com/feedback/)
+
 [mail@austinchronicle.com](mailto:mail@austinchronicle.com)
 
 ### Texas Observer
+
 [Submission Guidelines](https://www.texasobserver.org/contact/)
+
 [editors@texasobserver.org](mailto:editors@texasobserver.org)
 
 ### Community Impact
-Because the editor depends on where you live in the city, they have a submission form online that you can use:
+
+Because the editor depends on where you live in the city, they have a single online submission form.
+
 [Contact the Newsroom](https://communityimpact.com/corporate-contact-newsroom/)
