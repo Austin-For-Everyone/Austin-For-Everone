@@ -36,7 +36,7 @@ You do not need to be an expert on housing or city planning issues to speak up. 
 
 - If you are a business owner, you might describe how the new development would benefit your business. New residents means more potential customers!
 
-- If you, a family member, or a friend has been homeless or is on a housing waiting list, talk about what it is like to wait for years for a decent home and proper supports.
+- If you, a family member, or a friend have struggled with finding housing, talk about that experience. Whether you've had to move further away from your job, talk about the non-monetary costs like spending your time commuting instead of with your family and friends. If you have been homeless or is on a housing waiting list, talk about what it is like to wait for years for a decent home. 
 
 - If you are a member of a congregation in the area, speak up for social justice, or for members of your own congregation who need a place to live.
 
