@@ -14,11 +14,11 @@ While we have ideas for how to achieve these goals, we are open to suggestions a
 
 ### Testify at Public Hearings
 
-It's quick, it's easy, and it gives our representatives a chance to get to know the real people affected by how our city approaches zoning and land use. If you aren't sure what to say, check out our [guide to speaking up](/resouces/speak-up). If you aren't sure what meetings are coming up or when a specific case is going to be heard, check out our list of [opportunities to use your voice](/resouces/use-your-voice). 
+It's quick, it's easy, and it gives our representatives a chance to get to know the real people affected by how our city approaches zoning and land use. If you aren't sure what to say, check out our [guide to speaking up](https://austinforeveryone.net/resouces/speak-up). If you aren't sure what meetings are coming up or when a specific case is going to be heard, check out our list of [opportunities to use your voice](https://austinforeveryone.net/resouces/use-your-voice). 
 
 ### Write an Op-Ed or a Letter to the Editor
 
-One of the most critical actions you can take is to help set the tone of the conversation on the need for more units, especially more affordable units. We've put together a [short guide](/resources/letter-to-the-editor) to help you create your own. If you would like to see some examples or need some inspiration, check out our [resources](/resources) page.
+One of the most critical actions you can take is to help set the tone of the conversation on the need for more units, especially more affordable units. We've put together a [short guide](https://austinforeveryone.net/resources/letter-to-the-editor) to help you create your own. If you would like to see some examples or need some inspiration, check out our [resources](https://austinforeveryone.net/resources) page.
 
 ### Get involved in Your Neighborhood
 
