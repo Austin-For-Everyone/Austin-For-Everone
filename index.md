@@ -1,4 +1,4 @@
-## The future of Texas's capital city depends on you.
+## Working Together, We Can Make an Austin For Everyone
 
 Austin for Everyone is an independent project run by individuals that support land use polices that will help provide abundant, diverse, and affordable housing options in all of Austin's neighborhoods. We organize our current and future neighbors to encourage Austin City Council and other civic leaders to make inclusive and equitable land use and funding decisions that will:
 
