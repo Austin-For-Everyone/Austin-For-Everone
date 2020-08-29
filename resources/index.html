@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a7ed2cf8e413481c961400301769b735 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a7ed2cf8e413481c961400301769b735" ></div>
+        
+</body>
+<script>    
+    
+            var map_a7ed2cf8e413481c961400301769b735 = L.map(
+                "map_a7ed2cf8e413481c961400301769b735",
+                {
+                    center: [30.268954, -97.75422],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c11410a9e6894445bda69ba490d049ca = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var marker_e14dfc6bb38c4eb2b6f0366774234815 = L.marker(
+                [30.26353947, -97.75806054],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_5050a05496b1406fa68cdc6d85532e70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e14dfc6bb38c4eb2b6f0366774234815.setIcon(icon_5050a05496b1406fa68cdc6d85532e70);
+        
+    
+        var popup_c5f067a9357a4dd387a83b48de8569f4 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_db2cf4d5b1404a91ba06616720e749eb = $(`<div id="html_db2cf4d5b1404a91ba06616720e749eb" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=218+S+LAMAR+SB+,+AUSTIN,TX+78704 "target="_blank">218 S LAMAR SB, AUSTIN,TX 78704</a></h3> <br></br> <h5>Work Summary</h5> Zoning Planned Unit Development (PUD) <br></br> <h5>Current</h5> CS-V <h5>Proposed</h5> PUD - PLANNED UNIT DEVELOPMENT <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12043022 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200423-REG.htm#056 "target="_blank"> Committee Meeting (2020-04-23) </a> <br></br></div>`)[0];
+            popup_c5f067a9357a4dd387a83b48de8569f4.setContent(html_db2cf4d5b1404a91ba06616720e749eb);
+        
+
+        marker_e14dfc6bb38c4eb2b6f0366774234815.bindPopup(popup_c5f067a9357a4dd387a83b48de8569f4)
+        ;
+
+        
+    
+    
+            var marker_7442edf3253d4e31810f33e07564b6ff = L.marker(
+                [30.23897687, -97.69140017],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_05b25fad4b89499ba139b5abdf0b3edd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7442edf3253d4e31810f33e07564b6ff.setIcon(icon_05b25fad4b89499ba139b5abdf0b3edd);
+        
+    
+        var popup_84d4c350f1b04c7e9d62158e2dad8ffe = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_ce3fc2a6ceac4471a69df8953f390d24 = $(`<div id="html_ce3fc2a6ceac4471a69df8953f390d24" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=6328+EL+MIRANDO+,+AUSTIN,TX+78741 "target="_blank">6328 EL MIRANDO, AUSTIN,TX 78741</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP <h5>Proposed</h5> SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12447537 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#057 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_84d4c350f1b04c7e9d62158e2dad8ffe.setContent(html_ce3fc2a6ceac4471a69df8953f390d24);
+        
+
+        marker_7442edf3253d4e31810f33e07564b6ff.bindPopup(popup_84d4c350f1b04c7e9d62158e2dad8ffe)
+        ;
+
+        
+    
+    
+            var marker_bb845cc88ecf46d9b36036893b596096 = L.marker(
+                [30.27924235, -97.76058788],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_6634797c45244101889444e7e2bb4409 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb845cc88ecf46d9b36036893b596096.setIcon(icon_6634797c45244101889444e7e2bb4409);
+        
+    
+        var popup_29337a0d14e5417ebfe8b0c5b75d4054 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_3ec2223c1f9a4e1880b904655240463d = $(`<div id="html_3ec2223c1f9a4e1880b904655240463d" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=1607+W+10TH+,+AUSTIN,TX+78703 "target="_blank">1607 W 10TH, AUSTIN,TX 78703</a></h3> <br></br> <h5>Work Summary</h5> Zoning Historical <br></br> <h5>Current</h5> SF-3-NP <h5>Proposed</h5> SF-3-H-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12372594 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:steve.sadowsky@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_29337a0d14e5417ebfe8b0c5b75d4054.setContent(html_3ec2223c1f9a4e1880b904655240463d);
+        
+
+        marker_bb845cc88ecf46d9b36036893b596096.bindPopup(popup_29337a0d14e5417ebfe8b0c5b75d4054)
+        ;
+
+        
+    
+    
+            var marker_4941501e17df413e99643a16a029bb16 = L.marker(
+                [30.39015006, -97.75146835],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_b97dae647f3b48a3964940a1ee1f6c08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4941501e17df413e99643a16a029bb16.setIcon(icon_b97dae647f3b48a3964940a1ee1f6c08);
+        
+    
+        var popup_fa08938a0d3f4e7ab8c6e2570b67eec4 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_66ce716068344db7be56c4e1a26f2551 = $(`<div id="html_66ce716068344db7be56c4e1a26f2551" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=9401+ARBORETUM+,+AUSTIN,TX+78759 "target="_blank">9401 ARBORETUM, AUSTIN,TX 78759</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> GR, CS, CS-1 <h5>Proposed</h5> GR-MU <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12370995 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:sherri.sirwaitis@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#110 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_fa08938a0d3f4e7ab8c6e2570b67eec4.setContent(html_66ce716068344db7be56c4e1a26f2551);
+        
+
+        marker_4941501e17df413e99643a16a029bb16.bindPopup(popup_fa08938a0d3f4e7ab8c6e2570b67eec4)
+        ;
+
+        
+    
+    
+            var marker_aaa97299d4284a0b96d2046b5651731d = L.marker(
+                [30.23504347, -97.78778488],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_1e82efd8bfe14c6cb89e6bff212e8b09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aaa97299d4284a0b96d2046b5651731d.setIcon(icon_1e82efd8bfe14c6cb89e6bff212e8b09);
+        
+    
+        var popup_91750c2c68e84da8abdd518c28def73c = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_4177091f56e044e1a5678df7476305c8 = $(`<div id="html_4177091f56e044e1a5678df7476305c8" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=2108+PRATHER+,+AUSTIN,TX+78704 "target="_blank">2108 PRATHER, AUSTIN,TX 78704</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3, Family Residence <h5>Proposed</h5> SF-5, Urban Family Residence <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12490564 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200903-REG.htm#035 "target="_blank"> Committee Meeting (2020-09-03) </a> <br></br></div>`)[0];
+            popup_91750c2c68e84da8abdd518c28def73c.setContent(html_4177091f56e044e1a5678df7476305c8);
+        
+
+        marker_aaa97299d4284a0b96d2046b5651731d.bindPopup(popup_91750c2c68e84da8abdd518c28def73c)
+        ;
+
+        
+    
+    
+            var marker_649d7e1f4eed484db46cd52a8e4c9537 = L.marker(
+                [30.28220572, -97.7150236],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_73f47ad9e1a4465a810b0e9c01608e5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_649d7e1f4eed484db46cd52a8e4c9537.setIcon(icon_73f47ad9e1a4465a810b0e9c01608e5f);
+        
+    
+        var popup_65b70914f0654098b7e94a9c5eaa773a = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_77f862066bc748578c59d29ce09c0260 = $(`<div id="html_77f862066bc748578c59d29ce09c0260" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=2006+CEDAR+,+AUSTIN,TX+78722 "target="_blank">2006 CEDAR, AUSTIN,TX 78722</a></h3> <br></br> <h5>Work Summary</h5> Zoning Historical <br></br> <h5>Current</h5> SF-3-NP - Family Residence - Neighborhood Plan <h5>Proposed</h5> .SF-3-HD- NP - Family Residence - Historic District - Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12470048 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:steve.sadowsky@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200903-REG.htm#034 "target="_blank"> Committee Meeting (2020-09-03) </a> <br></br></div>`)[0];
+            popup_65b70914f0654098b7e94a9c5eaa773a.setContent(html_77f862066bc748578c59d29ce09c0260);
+        
+
+        marker_649d7e1f4eed484db46cd52a8e4c9537.bindPopup(popup_65b70914f0654098b7e94a9c5eaa773a)
+        ;
+
+        
+    
+    
+            var marker_d82a29f890ea403193099751bf8b2ede = L.marker(
+                [30.34745822, -97.7354536],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_1359ad77d702437bace30b8582eafc28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d82a29f890ea403193099751bf8b2ede.setIcon(icon_1359ad77d702437bace30b8582eafc28);
+        
+    
+        var popup_c1d37ef5b2e8488db9976dea8c756ecf = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_937f059f990141a196eb683d0747e687 = $(`<div id="html_937f059f990141a196eb683d0747e687" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=7113+BURNET+,+AUSTIN,TX+78757 "target="_blank">7113 BURNET, AUSTIN,TX 78757</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> CS-1-CO-NP, CS-CO-NP, LO-CO-NP <h5>Proposed</h5> MF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12405751 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#066 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_c1d37ef5b2e8488db9976dea8c756ecf.setContent(html_937f059f990141a196eb683d0747e687);
+        
+
+        marker_d82a29f890ea403193099751bf8b2ede.bindPopup(popup_c1d37ef5b2e8488db9976dea8c756ecf)
+        ;
+
+        
+    
+    
+            var marker_8c95ec1e30734c368566a3a6b73d8cd7 = L.marker(
+                [30.26909746, -97.72780495],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_95baa70bedc749dea2dfd528bfa01533 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c95ec1e30734c368566a3a6b73d8cd7.setIcon(icon_95baa70bedc749dea2dfd528bfa01533);
+        
+    
+        var popup_72374849621b43878026fab626248fd4 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_76cf627558cb440880a3c8c86b66d6bf = $(`<div id="html_76cf627558cb440880a3c8c86b66d6bf" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=1154+LYDIA+,+AUSTIN,TX+78702 "target="_blank">1154 LYDIA, AUSTIN,TX 78702</a></h3> <br></br> <h5>Work Summary</h5> Zoning Historical <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=216192 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:barbara.stocklin@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_72374849621b43878026fab626248fd4.setContent(html_76cf627558cb440880a3c8c86b66d6bf);
+        
+
+        marker_8c95ec1e30734c368566a3a6b73d8cd7.bindPopup(popup_72374849621b43878026fab626248fd4)
+        ;
+
+        
+    
+    
+            var marker_b71004dd2b7940f29a393a3bc52e734f = L.marker(
+                [30.28597434, -97.676036],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_a95d32f96cbe4a15a889caa0415532da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b71004dd2b7940f29a393a3bc52e734f.setIcon(icon_a95d32f96cbe4a15a889caa0415532da);
+        
+    
+        var popup_bd8544fd583e46919fdf10555ad93737 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_2889d905c6fa488cba2f314e25a6b1d5 = $(`<div id="html_2889d905c6fa488cba2f314e25a6b1d5" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=5201+E+MARTIN+LUTHER+KING+JR+,+AUSTIN,TX+78721 "target="_blank">5201 E MARTIN LUTHER KING JR, AUSTIN,TX 78721</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP, family residence - neighborhood plan <h5>Proposed</h5> MF-3-NP, multifamily residence-medium density - neighborhood plan, as amended <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12429884 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_bd8544fd583e46919fdf10555ad93737.setContent(html_2889d905c6fa488cba2f314e25a6b1d5);
+        
+
+        marker_b71004dd2b7940f29a393a3bc52e734f.bindPopup(popup_bd8544fd583e46919fdf10555ad93737)
+        ;
+
+        
+    
+    
+            var marker_d60cb5559ee84be6a56cd5aee577f855 = L.marker(
+                [30.27957579, -97.64604052],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_2117d143b81a476b9b894b0bd2ca2328 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d60cb5559ee84be6a56cd5aee577f855.setIcon(icon_2117d143b81a476b9b894b0bd2ca2328);
+        
+    
+        var popup_1d251c3c6b094df594b56a31c33dd31f = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_18441d0e44d140e0a7135e241bc8eb3f = $(`<div id="html_18441d0e44d140e0a7135e241bc8eb3f" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=5106+NIXON+,+AUSTIN,TX+78725 "target="_blank">5106 NIXON, AUSTIN,TX 78725</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> GR-CO <h5>Proposed</h5> GR-MU <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12466842 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#062 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_1d251c3c6b094df594b56a31c33dd31f.setContent(html_18441d0e44d140e0a7135e241bc8eb3f);
+        
+
+        marker_d60cb5559ee84be6a56cd5aee577f855.bindPopup(popup_1d251c3c6b094df594b56a31c33dd31f)
+        ;
+
+        
+    
+    
+            var marker_d360c9219702471cb8df92495aa361ce = L.marker(
+                [30.28795838, -97.74974545],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_42a721156f594363b38af45d5c35d29c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d360c9219702471cb8df92495aa361ce.setIcon(icon_42a721156f594363b38af45d5c35d29c);
+        
+    
+        var popup_fa7d1310f380493789798f3bc62d8b47 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_4b39f6ba426e4b2e9ab1b1ed786b75e9 = $(`<div id="html_4b39f6ba426e4b2e9ab1b1ed786b75e9" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=1103+W+24TH+,+AUSTIN,TX+78705 "target="_blank">1103 W 24TH, AUSTIN,TX 78705</a></h3> <br></br> <h5>Work Summary</h5> Zoning Amended Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12428013 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:maureen.meredith@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_fa7d1310f380493789798f3bc62d8b47.setContent(html_4b39f6ba426e4b2e9ab1b1ed786b75e9);
+        
+
+        marker_d360c9219702471cb8df92495aa361ce.bindPopup(popup_fa7d1310f380493789798f3bc62d8b47)
+        ;
+
+        
+    
+    
+            var marker_b3e9b7f213644434a89d92a10475d2b2 = L.marker(
+                [30.34476619, -97.71619625],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_d9892d8db8fc425b8ad726ca5a183b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3e9b7f213644434a89d92a10475d2b2.setIcon(icon_d9892d8db8fc425b8ad726ca5a183b91);
+        
+    
+        var popup_e4aaa8097b924e3b8dd9a03caeeaee0e = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_28ed5dcbca6b45278b2888a3fd998943 = $(`<div id="html_28ed5dcbca6b45278b2888a3fd998943" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=902+MORROW+,+AUSTIN,TX+78757 "target="_blank">902 MORROW, AUSTIN,TX 78757</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP - Family Residence-Neighborhood Plan Combining district <h5>Proposed</h5> MF-1-NP - Multifamily Residence (Limited Density) - Neighborhood Plan Combining District <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12447972 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_e4aaa8097b924e3b8dd9a03caeeaee0e.setContent(html_28ed5dcbca6b45278b2888a3fd998943);
+        
+
+        marker_b3e9b7f213644434a89d92a10475d2b2.bindPopup(popup_e4aaa8097b924e3b8dd9a03caeeaee0e)
+        ;
+
+        
+    
+    
+            var marker_456ea37315924b258b544140618f8c98 = L.marker(
+                [30.23316698, -97.69785785],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_b5b86463de67453db71e6d26d199c3d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_456ea37315924b258b544140618f8c98.setIcon(icon_b5b86463de67453db71e6d26d199c3d0);
+        
+    
+        var popup_d42fc6139b4640cabf6d296f758da4fe = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_20de882a6de543d3afbb06edadb49c0a = $(`<div id="html_20de882a6de543d3afbb06edadb49c0a" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=1013+MONTOPOLIS+,+AUSTIN,TX+78741 "target="_blank">1013 MONTOPOLIS, AUSTIN,TX 78741</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP <h5>Proposed</h5> SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12429904 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#054 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_d42fc6139b4640cabf6d296f758da4fe.setContent(html_20de882a6de543d3afbb06edadb49c0a);
+        
+
+        marker_456ea37315924b258b544140618f8c98.bindPopup(popup_d42fc6139b4640cabf6d296f758da4fe)
+        ;
+
+        
+    
+    
+            var marker_eb4b0bf522ac42e8b21c41e770124454 = L.marker(
+                [30.24291345, -97.6930864],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_6df5a4c4ebed4888a9f5a9ce143b20f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb4b0bf522ac42e8b21c41e770124454.setIcon(icon_6df5a4c4ebed4888a9f5a9ce143b20f0);
+        
+    
+        var popup_ac5ee3f3275e46e488f9b4ef8b4fb2ea = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_96f02000bf514278a7d0ab2b8d1a301a = $(`<div id="html_96f02000bf514278a7d0ab2b8d1a301a" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=6201+CLOVIS+,+AUSTIN,TX+78741 "target="_blank">6201 CLOVIS, AUSTIN,TX 78741</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP - FAMILY RESIDENCE-Neighborhood Plan <h5>Proposed</h5> SF-6 - TOWNHOUSE AND CONDOMINIUM RESIDENCE-Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12436974 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#056 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_ac5ee3f3275e46e488f9b4ef8b4fb2ea.setContent(html_96f02000bf514278a7d0ab2b8d1a301a);
+        
+
+        marker_eb4b0bf522ac42e8b21c41e770124454.bindPopup(popup_ac5ee3f3275e46e488f9b4ef8b4fb2ea)
+        ;
+
+        
+    
+    
+            var marker_d2d9840c2fa6440ab38f28917bbbd154 = L.marker(
+                [30.16784671, -97.79117352],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_0f9168b552824564bad5473199f4422c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2d9840c2fa6440ab38f28917bbbd154.setIcon(icon_0f9168b552824564bad5473199f4422c);
+        
+    
+        var popup_9ee76191a6f34920b350220e222b1bc1 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_cb62e608908946cc89795c4e143bcede = $(`<div id="html_cb62e608908946cc89795c4e143bcede" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=9012+CULLEN+,+AUSTIN,TX+78748 "target="_blank">9012 CULLEN, AUSTIN,TX 78748</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> GR-CO <h5>Proposed</h5> GR-CO, to change a condition of zoning to allow for restaurant use <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12373717 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:wendy.rhoades@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#052 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_9ee76191a6f34920b350220e222b1bc1.setContent(html_cb62e608908946cc89795c4e143bcede);
+        
+
+        marker_d2d9840c2fa6440ab38f28917bbbd154.bindPopup(popup_9ee76191a6f34920b350220e222b1bc1)
+        ;
+
+        
+    
+    
+            var marker_9c405f147d694653898e3f9543f4959e = L.marker(
+                [30.23121089, -97.76690339],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_0128a16533404ecca08064fb8514e508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c405f147d694653898e3f9543f4959e.setIcon(icon_0128a16533404ecca08064fb8514e508);
+        
+    
+        var popup_fb09929c0efe467aa2d7b6bb991b6cd8 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_7b56535cbb5e40779b6dbc9abd311fd2 = $(`<div id="html_7b56535cbb5e40779b6dbc9abd311fd2" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=3504+S+1ST+,+AUSTIN,TX+78704 "target="_blank">3504 S 1ST, AUSTIN,TX 78704</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> CS-CO <h5>Proposed</h5> CS-MU-V-CO <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12488646 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#130 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_fb09929c0efe467aa2d7b6bb991b6cd8.setContent(html_7b56535cbb5e40779b6dbc9abd311fd2);
+        
+
+        marker_9c405f147d694653898e3f9543f4959e.bindPopup(popup_fb09929c0efe467aa2d7b6bb991b6cd8)
+        ;
+
+        
+    
+    
+            var marker_c834d9936f594680b1a537295c9a9b0c = L.marker(
+                [30.1356339, -97.64404957],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_9bee56bb123e4c5596048d10eef8ba24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c834d9936f594680b1a537295c9a9b0c.setIcon(icon_9bee56bb123e4c5596048d10eef8ba24);
+        
+    
+        var popup_47db2ce691134c39908bb4e648fd3ee0 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_7424bd1e9b594e48b4176a8b72b36853 = $(`<div id="html_7424bd1e9b594e48b4176a8b72b36853" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=9201+CIRCUIT+OF+THE+AMERICAS+,+AUSTIN,TX+78617 "target="_blank">9201 CIRCUIT OF THE AMERICAS, AUSTIN,TX 78617</a></h3> <br></br> <h5>Work Summary</h5> Zoning Planned Unit Development (PUD) <br></br> <h5>Current</h5> I-RR <h5>Proposed</h5> PUD - PLANNED UNIT DEVELOPMENT <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12039242 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:sherri.sirwaitis@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_47db2ce691134c39908bb4e648fd3ee0.setContent(html_7424bd1e9b594e48b4176a8b72b36853);
+        
+
+        marker_c834d9936f594680b1a537295c9a9b0c.bindPopup(popup_47db2ce691134c39908bb4e648fd3ee0)
+        ;
+
+        
+    
+    
+            var marker_9743caf7d1664aff8daafac1e31e5ef7 = L.marker(
+                [30.2434527, -97.69221968],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_b88c05bf2e3d4875b9323f382fe67c5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9743caf7d1664aff8daafac1e31e5ef7.setIcon(icon_b88c05bf2e3d4875b9323f382fe67c5e);
+        
+    
+        var popup_3213d4f202474f1c8dac15f6c54070df = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_cbddc79bf29842e5bc5927f70bd1351c = $(`<div id="html_cbddc79bf29842e5bc5927f70bd1351c" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=200+MONTOPOLIS+,+AUSTIN,TX+78741 "target="_blank">200 MONTOPOLIS, AUSTIN,TX 78741</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP <h5>Proposed</h5> SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12429913 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#094 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_3213d4f202474f1c8dac15f6c54070df.setContent(html_cbddc79bf29842e5bc5927f70bd1351c);
+        
+
+        marker_9743caf7d1664aff8daafac1e31e5ef7.bindPopup(popup_3213d4f202474f1c8dac15f6c54070df)
+        ;
+
+        
+    
+    
+            var marker_0d347b086e4a42498edeba55a77313e0 = L.marker(
+                [30.34487272, -97.71637322],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_7498ad20dfdf441d9af36093367bf9ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d347b086e4a42498edeba55a77313e0.setIcon(icon_7498ad20dfdf441d9af36093367bf9ec);
+        
+    
+        var popup_279a45cf003741569fe84782737f1ad4 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_9e264107007341e18aaa27d3b5295b7a = $(`<div id="html_9e264107007341e18aaa27d3b5295b7a" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=904+MORROW+,+AUSTIN,TX+78757 "target="_blank">904 MORROW, AUSTIN,TX 78757</a></h3> <br></br> <h5>Work Summary</h5> Zoning Amended Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12426850 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:maureen.meredith@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_279a45cf003741569fe84782737f1ad4.setContent(html_9e264107007341e18aaa27d3b5295b7a);
+        
+
+        marker_0d347b086e4a42498edeba55a77313e0.bindPopup(popup_279a45cf003741569fe84782737f1ad4)
+        ;
+
+        
+    
+    
+            var marker_22b9d3c8ae24416f99f70fe0dcef5a47 = L.marker(
+                [30.23156961, -97.78514544],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_428f8290cd434ca5b562c04c3bc0154c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22b9d3c8ae24416f99f70fe0dcef5a47.setIcon(icon_428f8290cd434ca5b562c04c3bc0154c);
+        
+    
+        var popup_6851f917275747aaaa07044290878987 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_672ab59c3fc64798b2ab422f6700602c = $(`<div id="html_672ab59c3fc64798b2ab422f6700602c" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=4022+VALLEY+VIEW+,+AUSTIN,TX+78704 "target="_blank">4022 VALLEY VIEW, AUSTIN,TX 78704</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3 <h5>Proposed</h5> SF-6 <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12502971 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_6851f917275747aaaa07044290878987.setContent(html_672ab59c3fc64798b2ab422f6700602c);
+        
+
+        marker_22b9d3c8ae24416f99f70fe0dcef5a47.bindPopup(popup_6851f917275747aaaa07044290878987)
+        ;
+
+        
+    
+    
+            var marker_c4d18ac724a5480aa0023c80f37bf3b4 = L.marker(
+                [30.28488685, -97.66342703],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_1a4977eb4955419594784724b40c36e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c4d18ac724a5480aa0023c80f37bf3b4.setIcon(icon_1a4977eb4955419594784724b40c36e9);
+        
+    
+        var popup_28cfbbdde5484684903efae0ec11814b = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_0268c141207b44aa8dc891d1d6e009b4 = $(`<div id="html_0268c141207b44aa8dc891d1d6e009b4" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=6121+FM+969+,+AUSTIN,TX+78725 "target="_blank">6121 FM 969, AUSTIN,TX 78725</a></h3> <br></br> <h5>Work Summary</h5> Zoning Amended Neighborhood Plan <br></br> <h5>Current</h5> CS-NP <h5>Proposed</h5> CS-MU-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12407669 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:rachel.tepper@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#033 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_28cfbbdde5484684903efae0ec11814b.setContent(html_0268c141207b44aa8dc891d1d6e009b4);
+        
+
+        marker_c4d18ac724a5480aa0023c80f37bf3b4.bindPopup(popup_28cfbbdde5484684903efae0ec11814b)
+        ;
+
+        
+    
+    
+            var marker_80e6455b082a4b3f9a7cd4a8ef36b68c = L.marker(
+                [30.25669779, -97.73767489],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_30fc8a523e7f4cbba58229f3314e6e16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80e6455b082a4b3f9a7cd4a8ef36b68c.setIcon(icon_30fc8a523e7f4cbba58229f3314e6e16);
+        
+    
+        var popup_095aa4660eda4442aa353a1fd6a84f16 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_1eb44032064a4163b067c51f6117e871 = $(`<div id="html_1eb44032064a4163b067c51f6117e871" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=55-1/2+EAST+,+AUSTIN,TX+78701 "target="_blank">55-1/2 EAST, AUSTIN,TX 78701</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3, UNZ <h5>Proposed</h5> P <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12477515 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_095aa4660eda4442aa353a1fd6a84f16.setContent(html_1eb44032064a4163b067c51f6117e871);
+        
+
+        marker_80e6455b082a4b3f9a7cd4a8ef36b68c.bindPopup(popup_095aa4660eda4442aa353a1fd6a84f16)
+        ;
+
+        
+    
+    
+            var marker_b7499314e3b94776b93d0f25665b2bef = L.marker(
+                [30.2764395, -97.75041615],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_05ad525c916b43bfa90595077369b27c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7499314e3b94776b93d0f25665b2bef.setIcon(icon_05ad525c916b43bfa90595077369b27c);
+        
+    
+        var popup_f7b8b93643c94af7954d924f637c59cb = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_e744c7a058304cab9e85b7c1d49d9caa = $(`<div id="html_e744c7a058304cab9e85b7c1d49d9caa" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=903+W+12TH+,+AUSTIN,TX+78703 "target="_blank">903 W 12TH, AUSTIN,TX 78703</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> CS - General Commercial Services <h5>Proposed</h5> DMU-CO - Downtown Mixed Use - Conditional Overlay <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12463302 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#113 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_f7b8b93643c94af7954d924f637c59cb.setContent(html_e744c7a058304cab9e85b7c1d49d9caa);
+        
+
+        marker_b7499314e3b94776b93d0f25665b2bef.bindPopup(popup_f7b8b93643c94af7954d924f637c59cb)
+        ;
+
+        
+    
+    
+            var marker_1c9988bc0dda4cbdbd8d52368194cc51 = L.marker(
+                [30.38840952, -97.76869051],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_cb8a1c5778ed492391e25521aa81f534 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c9988bc0dda4cbdbd8d52368194cc51.setIcon(icon_cb8a1c5778ed492391e25521aa81f534);
+        
+    
+        var popup_295bd67083a247c1afa5357185e2fba2 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_131b0e7971144ef38ab9c6eea891dfdc = $(`<div id="html_131b0e7971144ef38ab9c6eea891dfdc" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=5500+BLUFFSTONE+,+AUSTIN,TX+78759 "target="_blank">5500 BLUFFSTONE, AUSTIN,TX 78759</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> LR - NEIGHBOORHOOD COMMERCIAL <h5>Proposed</h5> SF-2 - SINGLE FAMILY STANDARD <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12438308 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:sherri.sirwaitis@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#112 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_295bd67083a247c1afa5357185e2fba2.setContent(html_131b0e7971144ef38ab9c6eea891dfdc);
+        
+
+        marker_1c9988bc0dda4cbdbd8d52368194cc51.bindPopup(popup_295bd67083a247c1afa5357185e2fba2)
+        ;
+
+        
+    
+    
+            var marker_60eac9a231614374a1e1602e6b66b416 = L.marker(
+                [30.21511447, -97.69879559],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_dc47361067164f49ba547fb4ca58ca26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60eac9a231614374a1e1602e6b66b416.setIcon(icon_dc47361067164f49ba547fb4ca58ca26);
+        
+    
+        var popup_7e1904ddc0eb4a3ebc5e4459a19b3cfc = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_d3d4d9e106bc4f82a62e2c4cd12f6b86 = $(`<div id="html_d3d4d9e106bc4f82a62e2c4cd12f6b86" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=7135+E+BEN+WHITE+BLVD+EB+,+AUSTIN,TX+78744 "target="_blank">7135 E BEN WHITE BLVD EB, AUSTIN,TX 78744</a></h3> <br></br> <h5>Work Summary</h5> Zoning Amended Neighborhood Plan <br></br> <h5>Current</h5> LI-NP - LIMITED INDUSTRIAL SERVICES <h5>Proposed</h5> MF-4-NP - MULTI FAMILY MODERATE-HIGH <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12440736 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:maureen.meredith@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#100 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_7e1904ddc0eb4a3ebc5e4459a19b3cfc.setContent(html_d3d4d9e106bc4f82a62e2c4cd12f6b86);
+        
+
+        marker_60eac9a231614374a1e1602e6b66b416.bindPopup(popup_7e1904ddc0eb4a3ebc5e4459a19b3cfc)
+        ;
+
+        
+    
+    
+            var marker_952d2a9035b64f668b7fcf3bfe63f063 = L.marker(
+                [30.34745822, -97.7354536],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_5a65ac09dd3240a7b2e52a0a2aab2105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_952d2a9035b64f668b7fcf3bfe63f063.setIcon(icon_5a65ac09dd3240a7b2e52a0a2aab2105);
+        
+    
+        var popup_f3f5f1de3da14efe8159d0c41dc08117 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_be53924761e34ebb845f095a08abd79c = $(`<div id="html_be53924761e34ebb845f095a08abd79c" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=7113+BURNET+,+AUSTIN,TX+78757 "target="_blank">7113 BURNET, AUSTIN,TX 78757</a></h3> <br></br> <h5>Work Summary</h5> Zoning Amended Neighborhood Plan <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12405788 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:maureen.meredith@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#064 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_f3f5f1de3da14efe8159d0c41dc08117.setContent(html_be53924761e34ebb845f095a08abd79c);
+        
+
+        marker_952d2a9035b64f668b7fcf3bfe63f063.bindPopup(popup_f3f5f1de3da14efe8159d0c41dc08117)
+        ;
+
+        
+    
+    
+            var marker_c3ffa48c850a47a6952752dd5bcb9a56 = L.marker(
+                [30.24528626, -97.72925255],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_421b25368a55473dae81a5d397fe0059 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3ffa48c850a47a6952752dd5bcb9a56.setIcon(icon_421b25368a55473dae81a5d397fe0059);
+        
+    
+        var popup_13f0b725dd3f48dbbc27f9f57048e727 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_4ab752c83b9a4188bb6a1e40e671164d = $(`<div id="html_4ab752c83b9a4188bb6a1e40e671164d" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=1720+SOUTH+LAKESHORE+,+AUSTIN,TX+78741 "target="_blank">1720 SOUTH LAKESHORE, AUSTIN,TX 78741</a></h3> <br></br> <h5>Work Summary</h5> Zoning Restrictive Covenant Amendment <br></br> <h5>Current</h5> ERC <h5>Proposed</h5> ERC <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12483255 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:kate.clark@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_13f0b725dd3f48dbbc27f9f57048e727.setContent(html_4ab752c83b9a4188bb6a1e40e671164d);
+        
+
+        marker_c3ffa48c850a47a6952752dd5bcb9a56.bindPopup(popup_13f0b725dd3f48dbbc27f9f57048e727)
+        ;
+
+        
+    
+    
+            var marker_7eb5e5cbf5cb41c1aefe077a636d4961 = L.marker(
+                [30.28852789, -97.74489063],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_487ec9b820364c1e999053c2ff53ab36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eb5e5cbf5cb41c1aefe077a636d4961.setIcon(icon_487ec9b820364c1e999053c2ff53ab36);
+        
+    
+        var popup_349d434d9f434ec7866a1adb0b1fb1a1 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_e6144547c0a745fcb76232ba8a5ba9cb = $(`<div id="html_e6144547c0a745fcb76232ba8a5ba9cb" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=2404+RIO+GRANDE+,+AUSTIN,TX+78705 "target="_blank">2404 RIO GRANDE, AUSTIN,TX 78705</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> GO-H-NP; MF-4-H-NP <h5>Proposed</h5> GO-H-NP (Tract 1) and MF-4-NP (Tract 2), as amended <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12290990 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200827-REG.htm#126 "target="_blank"> Committee Meeting (2020-08-27) </a> <br></br></div>`)[0];
+            popup_349d434d9f434ec7866a1adb0b1fb1a1.setContent(html_e6144547c0a745fcb76232ba8a5ba9cb);
+        
+
+        marker_7eb5e5cbf5cb41c1aefe077a636d4961.bindPopup(popup_349d434d9f434ec7866a1adb0b1fb1a1)
+        ;
+
+        
+    
+    
+            var marker_eec3099c814b42afa632a2ab0255bc96 = L.marker(
+                [30.43079866, -97.6993256],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_103ba3b178054b3ba9102c66bd4626d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eec3099c814b42afa632a2ab0255bc96.setIcon(icon_103ba3b178054b3ba9102c66bd4626d3);
+        
+    
+        var popup_63f4ce3e1994433d8249d874bd0fae0a = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_e7b03324960c4a4c977e45716b13b99a = $(`<div id="html_e7b03324960c4a4c977e45716b13b99a" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=3100+SCOFIELD+RIDGE+,+AUSTIN,TX+78727 "target="_blank">3100 SCOFIELD RIDGE, AUSTIN,TX 78727</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> LR <h5>Proposed</h5> GR-MU <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12461006 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:sherri.sirwaitis@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br> <h5>Meetings</h5> <a href=" http://austintexas.gov/department/city-council/2020/20200730-REG.htm#060 "target="_blank"> Committee Meeting (2020-07-30) </a> <br></br></div>`)[0];
+            popup_63f4ce3e1994433d8249d874bd0fae0a.setContent(html_e7b03324960c4a4c977e45716b13b99a);
+        
+
+        marker_eec3099c814b42afa632a2ab0255bc96.bindPopup(popup_63f4ce3e1994433d8249d874bd0fae0a)
+        ;
+
+        
+    
+    
+            var marker_263af44f34294477a838fd8563b99378 = L.marker(
+                [30.34745822, -97.7354536],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_b5afb493e8b24a5c8ea7bcd95b96048a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_263af44f34294477a838fd8563b99378.setIcon(icon_b5afb493e8b24a5c8ea7bcd95b96048a);
+        
+    
+        var popup_92d9447a1dad4bf0a886abd8cce2e078 = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_ba0013f56d8e458485cb66de6c3a3a0c = $(`<div id="html_ba0013f56d8e458485cb66de6c3a3a0c" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=7113+BURNET+,+AUSTIN,TX+78757 "target="_blank">7113 BURNET, AUSTIN,TX 78757</a></h3> <br></br> <h5>Work Summary</h5> Zoning Restricted Covenant Termination <br></br> <h5>Current</h5> CS-1-CO-NP, CS-CO-NP, LO-CO-NP <h5>Proposed</h5> MF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12405761 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:mark.graham@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_92d9447a1dad4bf0a886abd8cce2e078.setContent(html_ba0013f56d8e458485cb66de6c3a3a0c);
+        
+
+        marker_263af44f34294477a838fd8563b99378.bindPopup(popup_92d9447a1dad4bf0a886abd8cce2e078)
+        ;
+
+        
+    
+    
+            var marker_8021f5e56ee2444aaca3d5e74e3ebbeb = L.marker(
+                [30.28269196, -97.6752551],
+                {}
+            ).addTo(map_a7ed2cf8e413481c961400301769b735);
+        
+    
+            var icon_b81a93e825e44046a5e8e87e3297e2e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8021f5e56ee2444aaca3d5e74e3ebbeb.setIcon(icon_b81a93e825e44046a5e8e87e3297e2e4);
+        
+    
+        var popup_d0360610ae6245a9b7be688e9f02461c = L.popup({"maxWidth": 400, "minWidth": 400});
+
+        
+            var html_b38b8e4923f641b0afee2d374df6b326 = $(`<div id="html_b38b8e4923f641b0afee2d374df6b326" style="width: 100.0%; height: 100.0%;"><h3><a href=" https://www.google.com/maps/search/?api=1&query=1907+WEBBERVILLE+,+AUSTIN,TX+78721 "target="_blank">1907 WEBBERVILLE, AUSTIN,TX 78721</a></h3> <br></br> <h5>Work Summary</h5> Zoning Zoning/Rezoning <br></br> <h5>Current</h5> SF-3-NP <h5>Proposed</h5> SF-6-NP <br></br> <a href=" https://abc.austintexas.gov/web/permit/public-search-other?t_detail=1&t_selected_folderrsn=12472769 "target="_blank"> Case Info </a> <br></br> <a href=" mailto:heather.chaffin@austintexas.gov "target="_blank"> Email Case Manager </a> <br></br></div>`)[0];
+            popup_d0360610ae6245a9b7be688e9f02461c.setContent(html_b38b8e4923f641b0afee2d374df6b326);
+        
+
+        marker_8021f5e56ee2444aaca3d5e74e3ebbeb.bindPopup(popup_d0360610ae6245a9b7be688e9f02461c)
+        ;
+
+        
+    
+</script>
